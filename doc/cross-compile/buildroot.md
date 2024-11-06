@@ -19,7 +19,11 @@
   
 7. add the buildroot sysroot on host PC environment: `export BINDGEN_EXTRA_CLANG_ARGS="--sysroot=/to/your/sysroot"`
    
-8. cd iceoryx2 
+8. Change to the iceoryx2 directory
+    ```console
+    cd iceoryx2
+    ```
+9 ... 
    
 9. cmake -S . -B build -DBUILD_EXAMPLES=ON -DCMAKE_INSTALL_PREFIX=../_OUTPUT -DRUST_TARGET_TRIPLET='aarch64-unknown-linux-gnu'
 
