@@ -33,4 +33,4 @@
 
 12. make install
 
-Finally, you can get the arm64 libs, include files in _OUTPUT folder.
+Finally, you can get the arm64 libs, include files in the `_OUTPUT` folder.
