@@ -3,7 +3,7 @@
 
 1. install the build dependencies on your host PC, like: cmake, g++, clang...
    
-2. install the `rust` tool: `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
+2. install the `rust` toolchain: `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
   
 3. add the arm64 target for rust: `rustup target add aarch64-unknown-linux-gnu`
    
